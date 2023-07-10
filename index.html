@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"] {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    <!-- .value è la proprietà per leggere il contenuto del nostro input -->
+    <input type="text" placeholder="Inserisci testo...">
+
+    <!-- .value è la proprietà per leggere il contenuto del nostro input -->
+    <input type="number">
+
+    <div>
+        <!-- .checked è la proprietà per leggere il contenuto del nostro input -->
+        <input type="checkbox">
+        <span>Vuoi email spam?</span>
+        <input type="checkbox">
+        <span>Ti piace la Nutella?</span>
+    </div>
+
+    <div>
+        <h4>Chi vuol essere milionario?</h4>
+        Per 1 milione di dollari, qual è la capitale del Botswana?
+        <div>
+            <input value="1" type="radio" name="group-1">
+            <span>Addis Ababa</span>
+            <input value="2" type="radio" name="group-1">
+            <span>Johannesburg</span>
+            <input value="3" type="radio" name="group-1">
+            <span>Lugano</span>
+            <input value="4" type="radio" name="group-1">
+            <span>Gaborone</span>
+        </div>
+        <h4>Chi vuol essere milionario?</h4>
+        Per 1 milione di dollari, qual è la capitale della Mongolia?
+        <div>
+            <input value="1" type="radio" name="group-2">
+            <span>Addis Ababa</span>
+            <input value="2" type="radio" name="group-2">
+            <span>Johannesburg</span>
+            <input value="3" type="radio" name="group-2">
+            <span>Ulan Bathor</span>
+            <input value="4" type="radio" name="group-2">
+            <span>Gaborone</span>
+        </div>
+
+        <button onclick="checkWin()">Hai vinto?</button>
+    </div>
+
+    <input type="color">
+    <input type="file">
+    <input type="email">
+    <input type="search">
+    <input type="button" value="click me">
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
